@@ -20,5 +20,6 @@ public class BricksAlign extends Game {
 	}
 
 	public void dispose() {
+		batch.dispose();
 	}
 }
